@@ -12,4 +12,12 @@ class Review extends Model
     protected $table = 'reviews';
 
     protected $guarded = ['id'];
+
+    // protected $fillable = [
+    //     'user_id',
+    //     'movie_id',
+    //     'star',
+    //     'review'
+    // ];
+
 }

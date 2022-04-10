@@ -12,4 +12,11 @@ class UserPremium extends Model
     protected $table = 'user_premiums';
 
     protected $guarded = ['id'];
+
+    // protected $fillable = [
+    //     'package_id',
+    //     'user_id',
+    //     'end_of_subscription'
+    // ];
+
 }

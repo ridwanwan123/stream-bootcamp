@@ -12,4 +12,13 @@ class Transaction extends Model
     protected $table = 'transactions';
 
     protected $guarded = ['id'];
+
+    // protected $fillable = [
+    //     'package_id',
+    //     'user_id',
+    //     'amount',
+    //     'transaction_code',
+    //     'status'
+    // ];
+
 }
