@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('movie_id')->constrained('movies');
             $table->integer('star');
             $table->text('review');
+            $table->unique(['user_id', 'movie_id']);
             $table->timestamps();
         });
     }
